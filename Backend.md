@@ -369,7 +369,11 @@ res.json(..... obj) // aise krte hai , isko hi hum csr bolte hai
 
 - Aur iss model ka use krke hum **CRUD** operation krte hai  CRUD = Create,Read,Update,Delete
 
+**Note :-** Basically hum DataBase ko Majorly 2 hi tarike se kaar sekte hai 
 
+  1. Jaab Bhi hum dataBase se Connect krte hai to problem ayegi hi ayegi ,***aur usi problem humko catch tryCatch ke andar ay promises ke andar wraap karna padta hai jisse wo problem ko solve kr sekte hai*** 
+
+  2. DataBase Hamesa dusre contuinet mein rakha hota hai means ki , maan lijiye hamne apne DB ka location set kiya hai mumbai/hydrabad lekin ye bhi ho sakta hai jo mera code base hai wo out of country mein ya just iske oppsite bh to ho sakta hai n.****
 
 
 
